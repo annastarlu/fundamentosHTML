@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang=""pt-BR">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset=""UTF-8"
     <title></title>
 </head>
 <body>
     <header> 
         <h1 align="center">Título principal (H1) - centralizado</h1>
-        <h2 align="left">Subtítulo (H2) - alinhado à esquerda</h2>
+        <h2 align="left">Subtítulo (H2) - alinhado à esquerda</h2> 
         <h3 align="right">Seção (H3) - alinhado à direita</h3>
         <h4>Subseção (H4)</h4>
         <h5>Detalhe (H5)</h5>
@@ -28,17 +29,22 @@
             <h2>Meu Blog - Primeiro Post</h2>
             </header>
         <p>
-            Este é um parágrafo com <strong>negrito</strong>, <em>itálico</em>, sublinhado, riscado, além de exemplos de <sub>subscrito</sub> e <sup>sobrescrito</sup>
+            Este é um parágrafo com <strong>negrito</strong>, <em>itálico</em>
+            <span style="text-decoration: underline;">sublinhado</span>,
+            <span style="text-decoration: line-through;">riscado</span>, 
+            além de exemplos de <sub>subscrito</sub> e <sup>sobrescrito</sup>
         </p>
         </article>
+        <p>Exemplo de <span style="color: blue; font-size: 1.25rem;">texto estilizado</span> (substituindo a tag font obsoleta)</p>
+        <div class="center">Este texto está centralizado</div> <!-- criar .class no css e centralizar-->
     </section>
-    <p text-align: justify>Parágrafo justificado para demonstrar alinhamento <br>Esta é a linha seguinte após o br.</br></p>
+    <p style="text-align: justify;">Parágrafo justificado para demonstrar alinhamento <br>Esta é a linha seguinte após o br.</p> 
     <aside id="lateral">
         <h3>Conteúdo Relacionado</h3>
         <p>Links, anúncios, ou notas que não fazem parte do fluxo principal do artigo</p>
     </aside>
     <footer id="rodape">
-        <p>© 2025 – Exemplo didático de HTML da Aula</p>
+        <p>© 2025 – Exemplo didático de HTML da Aula</p> <!-- precisa centralizar-->
     </footer>
 </body>
 </html>
